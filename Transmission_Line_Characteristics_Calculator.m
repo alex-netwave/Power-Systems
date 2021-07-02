@@ -1,6 +1,7 @@
 clc;clear;close all;
 %This script calculates the ABCD paramters, the efficiency of the transmission line
 %the source voltage, source current, and source real power(single-phase).
+%See problem 2 for example
 
 %Givens
 z=0.35146*(cosd(84.78)+i*sind(84.78)); %Line's Series Impedance
